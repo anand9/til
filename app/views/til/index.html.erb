@@ -1,0 +1,15 @@
+
+<h1>Today i learned </h1>
+
+<h4>Thought of the day </h4><p><i><b><%= @anand9 %></b></i></p>
+<p><i><b><%= @srih4ri %></b></i></p>
+<br />
+<br />
+<br />
+<br />
+
+
+<% @til.each do |t| %>
+
+    <p>@<%= t.from_user %> : <%= t.text %></p>
+<% end %>
